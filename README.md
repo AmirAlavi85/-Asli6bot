@@ -39,7 +39,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # استارت ربات تلگرام در یک Thread جدا
 def start_telegram_bot():
-    application = ApplicationBuilder().token(telegram_token).build()
+    application = ApplicationBuilder().token(7790106717:AAEdewcCz5YRkOHirXFFasLJbx_26MdV4hM).build()
     application.add_handler(MessageHandler(filters.TEXT & (~filters.COMMAND), handle_message))
     application.run_polling()
 
