@@ -9,8 +9,8 @@ from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTyp
 
 # بارگذاری متغیرهای محیطی از .env
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
-telegram_token = os.getenv("TELEGRAM_BOT_TOKEN")
+openai.api_key = os.getenv("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")
+telegram_token = os.getenv("7790106717:AAEdewcCz5YRkOHirXFFasLJbx_26MdV4hM")
 
 app = FastAPI()
 
